@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./singleBlog.module.css";
 import Image from "next/image";
-import Menu from "../components/menu/Menu";
-import Comments from "../components/comments/Comments";
+import Menu from "@/components/menu/Menu";
+import Comments from "@/components/comments/Comments";
 const SingleBlog = () => {
   return (
     <div className={styles.container}>
